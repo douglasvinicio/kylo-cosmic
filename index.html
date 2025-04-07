@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylo's Cosmic Canine Adventures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Roboto', 'sans-serif'],
+                        'orbitron': ['Orbitron', 'sans-serif'],
+                    },
+                    colors: {
+                        'space-blue': '#0f172a',
+                        'space-gold': '#facc15',
+                        'space-silver': '#e5e7eb',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-space-blue text-space-silver font-sans relative overflow-x-hidden">
+
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <nav class="bg-slate-800/50 backdrop-blur-sm sticky top-0 z-50 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-orbitron font-bold text-space-gold hover:text-white transition duration-300">🚀 Kylo's Cosmic Adventures</a>
+            <div class="space-x-4 hidden md:flex">
+                <a href="#captain" class="hover:text-space-gold transition duration-300">Meet the Captain</a>
+                <a href="#gallery" class="hover:text-space-gold transition duration-300">Star Gallery</a>
+                <a href="#log" class="hover:text-space-gold transition duration-300">Captain's Log</a>
+                <a href="#game" class="hover:text-space-gold transition duration-300">Galactic Games</a>
+                <a href="#contact" class="hover:text-space-gold transition duration-300">Contact</a>
+            </div>
+            <button class="md:hidden text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <header class="relative text-center py-16 md:py-24 lg:py-32 bg-gradient-to-b from-slate-900 via-space-blue to-space-blue overflow-hidden">
+        <div class="absolute inset-0 opacity-20"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <img src="DALL·E 2025-01-22 13.53.52 - A highly refined and detailed cinematic space-themed birthday celebration featuring a 4-year-old Bernese Mountain Dog named Kylo. He is seated on a me.webp" alt="Kylo the Bernese Dog at a space-themed birthday party" class="mx-auto w-full max-w-md md:max-w-lg lg:max-w-xl rounded-lg shadow-2xl mb-8 border-4 border-space-gold/50">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-orbitron font-bold text-white mb-4 drop-shadow-lg">Welcome aboard Kylo's Cosmic Ship!</h1>
+            <p class="text-lg md:text-xl text-space-silver mb-8">Exploring the universe, one paw at a time.</p>
+            <a href="#game" class="bg-space-gold hover:bg-yellow-500 text-space-blue font-bold py-3 px-8 rounded-full text-lg transition duration-300 shadow-md hover:shadow-lg transform hover:scale-105">Play Galactic Catcher!</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8 space-y-16 md:space-y-24">
+
+        <section id="captain" class="scroll-mt-20">
+            <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-center mb-8 text-space-gold">Meet the Captain</h2>
+            <div class="grid md:grid-cols-3 gap-8 items-center bg-slate-800/30 p-6 rounded-lg shadow-lg">
+                <div class="md:col-span-1">
+                    <img src="IMG_0565.jpg" alt="Captain Kylo" class="rounded-lg shadow-md w-full h-auto object-cover aspect-square border-2 border-space-silver/30">
+                </div>
+                <div class="md:col-span-2 text-center md:text-left">
+                    <h3 class="text-2xl font-bold mb-3">Codename: Astro-Dog Kylo</h3>
+                    <p class="mb-2"><strong class="text-space-gold">Rank:</strong> Belly Rub Commander</p>
+                    <p class="mb-2"><strong class="text-space-gold">Species:</strong> Bernese Mountain Dog</p>
+                    <p class="mb-2"><strong class="text-space-gold">Age:</strong> 4 Earth Years</p>
+                    <p class="mb-2"><strong class="text-space-gold">Launch Date:</strong> December 6</p>
+                    <p class="mb-4"><strong class="text-space-gold">Mission:</strong> Seek belly parties, explore star systems (parks), collect maximum treats.</p>
+                    <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                        <div>
+                            <h4 class="font-bold text-lg mb-1 text-green-400">Likes:</h4>
+                            <ul class="list-disc list-inside text-left ml-4">
+                                <li>Space Walks</li>
+                                <li>Astro-Treats</li>
+                                <li>Zero-Gravity Zoomies</li>
+                                <li>Ear Scratches</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1 text-red-400">Dislikes:</h4>
+                            <ul class="list-disc list-inside text-left ml-4">
+                                <li>Meteor Showers (Baths)</li>
+                                <li>Black Holes (Vacuum Cleaner)</li>
+                                <li>Invasive Squirrels</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="scroll-mt-20">
+            <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-center mb-8 text-space-gold">Star Gallery</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <img src="https://via.placeholder.com/300x300/0f172a/e5e7eb?text=Kylo+at+the+Park" alt="Kylo at the Park" class="rounded-lg shadow-md hover:scale-105 transition transform duration-300 cursor-pointer border-2 border-transparent hover:border-space-gold">
+                <img src="https://via.placeholder.com/300x300/1e293b/e5e7eb?text=Kylo+on+the+Couch" alt="Kylo on the Couch" class="rounded-lg shadow-md hover:scale-105 transition transform duration-300 cursor-pointer border-2 border-transparent hover:border-space-gold">
+                <img src="https://via.placeholder.com/300x300/334155/e5e7eb?text=Kylo's+Party" alt="Kylo's Party" class="rounded-lg shadow-md hover:scale-105 transition transform duration-300 cursor-pointer border-2 border-transparent hover:border-space-gold">
+                <img src="https://via.placeholder.com/300x300/475569/e5e7eb?text=Kylo+Playing" alt="Kylo Playing" class="rounded-lg shadow-md hover:scale-105 transition transform duration-300 cursor-pointer border-2 border-transparent hover:border-space-gold">
+            </div>
+            <p class="text-center text-sm text-slate-400 mt-4"><i>(Remember to replace these sample images with real photos of Kylo!)</i></p>
+        </section>
+
+        <section id="log" class="scroll-mt-20">
+            <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-center mb-8 text-space-gold">Captain's Log</h2>
+            <div class="bg-slate-800/30 p-6 rounded-lg shadow-lg max-w-3xl mx-auto">
+                <h3 class="font-bold text-xl mb-2">Stardate: 2025.04.06</h3>
+                <p class="italic">"Today, Command activated the dreaded 'Bath Nebula'. I attempted evasive maneuvers, but they were futile. Recharging with a nap on the Command Couch. Planet Park exploration is scheduled for tomorrow, energy levels permitting."</p>
+                <p class="text-right mt-2">- Commander Kylo</p>
+            </div>
+        </section>
+
+        <section id="game" class="scroll-mt-20">
+            <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-center mb-8 text-space-gold">Galactic Treat Catcher!</h2>
+            <div class="bg-slate-800/50 p-4 md:p-6 rounded-lg shadow-lg text-center max-w-2xl mx-auto">
+                <p class="mb-4">Use the Arrow Keys to move Kylo and catch the Astro-Treats! Avoid Space Debris!</p>
+                <canvas id="gameCanvas" width="600" height="400" class="bg-slate-900 rounded mx-auto border-2 border-space-gold block max-w-full h-auto"></canvas>
+                <div id="score" class="mt-4 text-xl font-bold">Score: 0</div>
+                <button id="startButton" class="mt-4 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded transition duration-300">Start Game</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contact" class="bg-slate-900 text-center p-8 mt-16 md:mt-24">
+        <h2 class="text-2xl font-orbitron font-bold mb-4 text-space-gold">Contact the Star Command</h2>
+        <p class="mb-4">Follow Kylo’s adventures on social media!</p>
+        <div class="flex justify-center space-x-6 mb-8">
+            <a href="#" class="text-space-silver hover:text-space-gold transition duration-300" aria-label="Instagram">
+                <!-- Instagram SVG Icon -->
+            </a>
+            <a href="#" class="text-space-silver hover:text-space-gold transition duration-300" aria-label="Facebook">
+                <!-- Facebook SVG Icon -->
+            </a>
+        </div>
+        <p class="text-sm text-slate-500">© 2025 Kylo's Cosmic Adventures. All paws reserved.</p>
+    </footer>
+
+</body>
+</html>
